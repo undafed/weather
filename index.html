@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather Indicator</title>
+    <link rel="stylesheet" href="styles.css">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" id="name" placeholder="Enter city name">
+            <button type="submit">Search</button>
+        </form>
+        <div class="result">
+            <div class="name">
+                <figcaption></figcaption>
+                <img src="" alt="Country flag">
+            </div>
+            <div class="temperature">
+                <img src="" alt="Weather icon">
+                <figcaption></figcaption>
+            </div>
+            <p class="description"></p>
+            <ul>
+                <li id="clouds">
+                    <i class="fas fa-cloud"></i>
+                    <span>Clouds: <span class="value"></span>%</span>
+                </li>
+                <li id="humidity">
+                    <i class="fas fa-tint"></i>
+                    <span>Humidity: <span class="value"></span>%</span>
+                </li>
+                <li id="pressure">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Pressure: <span class="value"></span> hPa</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
